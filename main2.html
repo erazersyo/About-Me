@@ -7,31 +7,8 @@
     <title>Bootstrap 5 HTML Page</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #D3D3D3;
-        }
-
-        .container-wrapper {
-            background-color: #f8f9fa;
-            border-radius: 20px;
-            padding: 25px;
-            margin: 50px;
-        }
-
-        .smaller-image {
-            transform: scale(0.75);
-        }
-
-        .navbar {
-            margin-bottom: 0;
-            padding-top: 10px;
-        }
-
-        #about {
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -51,10 +28,16 @@
                             <a class="nav-link fw-bold" href="#about">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#section2">Section 2</a>
+                            <a class="nav-link fw-bold" href="#skill">Skill</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#section3">Section 3</a>
+                            <a class="nav-link fw-bold" href="#working">Working Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#contact-me">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -63,38 +46,268 @@
 
         <!-- Sections -->
         <div class="container">
-            <section id="about">
-                <div class="container">
+            <div class="row">
+                <section id="about">
+                    <div class="left">
+                        <div class="justify-content-center" style="margin-left: 150px">
+                            <p class="double-bold">HELLO</p>
+                            <h2 class="double-bold">I AM</h2>
+                            <h1 class="double-bold">OH SOONG TENG</h1>
+                            <br>
+                            <p>A fresh graduate software developer.</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img style="width: 70%;" src="https://imgur.com/Our9blg.jpg" alt="Your Image">
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section id="skill">
+            <div class="container">
+                <div style="margin-top: 80px;">
                     <div class="row">
-                        <div class="col-md-6 left-side d-flex flex-column justify-content-center">
-                            <div class="container justify-content-center" style="margin-left: 150px">
-                                <p>HELLO</p>
-                                <h2>I AM</h2>
-                                <h1>OH SOONG TENG</h1>
+                        <div class="left-left-skill double-bold">
+                            <h2>SKILLS</h2>
+                        </div>
+                        <div class="left-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">HTML</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6 right-side">
-                            <img src="https://imgur.com/Our9blg.jpg" alt="Your Image" class="img-fluid smaller-image">
+                        <div class="center-skill"></div>
+                        <div class="right-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">CSS</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="left-left-skill"></div>
+                        <div class="left-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">JavaScript</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="center-skill"></div>
+                        <div class="right-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">ASP.net</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="left-left-skill"></div>
+                        <div class="left-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">Vue.js</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="center-skill"></div>
+                        <div class="right-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">Node.js</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="left-left-skill"></div>
+                        <div class="left-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">MongoDB</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="center-skill"></div>
+                        <div class="right-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">MySQL</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="left-left-skill"></div>
+                        <div class="left-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">C / C++</h3>
+                            <div>
+                                <div class="star-ratings">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="center-skill"></div>
+                        <div class="right-skill">
+                            <h3 style="padding-top:10px; padding-right:10px">PHP</h3>
+                            <div>
+                                <div>
+                                    <div class="star-ratings">
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+        </section>
 
-        <div class="container py-4">
-            <h2 id="section2">Section 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat dolor quis feugiat vestibulum.
-            </p>
-        </div>
-        <div class="container py-4">
-            <h2 id="section3">Section 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat dolor quis feugiat vestibulum.
-            </p>
-        </div>
+
+
+        <section id="working">
+            <div class="container">
+                <div class="content-wrapper">
+                    <!-- Vertical Navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-vertical">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#" onclick="changeContent('home')">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#" onclick="changeContent('about')">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#" onclick="changeContent('services')">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#" onclick="changeContent('contact')">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+        
+                    <!-- Content -->
+                    <div class="content">
+                        <div id="content">
+                            <!-- Default content or initial content here -->
+                            <h2>Welcome to My Website!</h2>
+                            <p>This is the default content. Click on the navbar items to change the content dynamically.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+                <h2>Section 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat dolor quis feugiat
+                    vestibulum.
+                </p>
+            </div>
+        </section>
+        <section id="contact-me">
+            <div class="container">
+                <h2 class="section-header">Contact Me</h2>
+                <div class="row justify-content-center">
+                    <div class="col-auto contact-icons">
+                        <a href="https://wa.me/60172508588" target="_blank" class="contact-icon"><i
+                                class="fab fa-whatsapp fa-2x"></i></a>
+                        <a href="mailto:ohst1999@hotmail.com" target="_blank" class="contact-icon"><i
+                                class="fas fa-envelope fa-2x"></i></a>
+                        <a href="https://www.instagram.com/oh.st_/" target="_blank" class="contact-icon"><i
+                                class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://github.com/erazersyo" target="_blank" class="contact-icon"><i
+                                class="fab fa-github fa-2x"></i></a>
+                        <a href="https://www.facebook.com/ohsoongteng" target="_blank" class="contact-icon"><i
+                                class="fab fa-facebook fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function changeContent(page, event) {
+            event.preventDefault(); // Prevent the default behavior of the anchor tag
+    
+            var contentElement = document.getElementById("content");
+    
+            if (page === 'home') {
+                contentElement.innerHTML = "<h2>Welcome to My Website!</h2><p>This is the Home page.</p>";
+            } else if (page === 'about') {
+                contentElement.innerHTML = "<h2>About</h2><p>This is the About page.</p>";
+            } else if (page === 'services') {
+                contentElement.innerHTML = "<h2>Services</h2><p>This is the Services page.</p>";
+            } else if (page === 'contact') {
+                contentElement.innerHTML = "<h2>Contact</h2><p>This is the Contact page.</p>";
+            }
+        }
+    </script>
+    <script>
+        // Add an event listener to the navbar toggler button
+        document.addEventListener('DOMContentLoaded', function () {
+            var navbarToggler = document.querySelector('.navbar-toggler');
+            var navbarCollapse = document.querySelector('.navbar-collapse');
+
+            navbarToggler.addEventListener('click', function () {
+                navbarCollapse.classList.toggle('show');
+            });
+        });
+    </script>
 </body>
+
 
 </html>
