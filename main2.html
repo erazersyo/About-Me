@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 HTML Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #D3D3D3;
+        }
+
+        .container-wrapper {
+            background-color: #f8f9fa;
+            border-radius: 20px;
+            padding: 25px;
+            margin: 50px;
+        }
+
+        .smaller-image {
+            transform: scale(0.75);
+        }
+
+        .navbar {
+            margin-bottom: 0;
+            padding-top: 10px;
+        }
+
+        #about {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Container -->
+    <div class="container-wrapper">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">Soong Teng</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#section2">Section 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#section3">Section 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sections -->
+        <div class="container">
+            <section id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 left-side d-flex flex-column justify-content-center">
+                            <div class="container justify-content-center" style="margin-left: 150px">
+                                <p>HELLO</p>
+                                <h2>I AM</h2>
+                                <h1>OH SOONG TENG</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-6 right-side">
+                            <img src="https://imgur.com/Our9blg.jpg" alt="Your Image" class="img-fluid smaller-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container py-4">
+            <h2 id="section2">Section 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat dolor quis feugiat vestibulum.
+            </p>
+        </div>
+        <div class="container py-4">
+            <h2 id="section3">Section 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat dolor quis feugiat vestibulum.
+            </p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
