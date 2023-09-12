@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume</title>
+  <title>Oh Soong Teng</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
@@ -12,6 +12,13 @@
     body {
       background-color: #333;
       color: #fff;
+    }
+
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
     }
 
     .top-header {
@@ -61,11 +68,16 @@
       color: #fff;
       font-size: 24px;
     }
+
+    .btn-custom-hover:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
   </style>
 </head>
 
 <body>
-  <header class="top-header">
+  <header class="top-header fixed-header">
     <h1>Oh Soong Teng</h1>
     <nav>
       <ul>
@@ -77,10 +89,9 @@
       </ul>
     </nav>
   </header>
-
   <section id="about" class="bg-secondary py-5">
     <div class="container">
-      <h2 class="section-header text-center">About Me</h2>
+      <h2 class="section-header text-center mt-5 pt-5">About Me</h2>
       <div class="row">
         <div class="col-lg-4">
           <img src="https://imgur.com/Our9blg.jpg" alt="Profile Picture" width="300" height="350">
@@ -90,12 +101,12 @@
             Hussein Onn Malaysia (UTHM) in 2023. I've got hands-on experience in web development using Vue.js, Node.js,
             and MongoDB. I love coding and solving challenges, and I'm thrilled about applying my abilities to
             contribute to innovative software development projects.</p><br>
-            <a href="ohsoongteng_muet.pdf" class="btn btn-light">Download PDF</a>
+            <a href="resume_ohsoongteng.pdf" class="btn btn-light btn-custom-hover" target="_blank">Download CV</a>
         </div>
       </div>
     </div>
   </section>
-  
+
 
 
   <section id="skills" class="py-5">
